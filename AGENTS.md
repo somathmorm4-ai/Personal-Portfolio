@@ -129,3 +129,35 @@ export default function ComponentName() {
 - Ensure accessibility standards are met
 - Run `npm run lint` after making changes
 - Check that all imports are correct and components are properly exported
+
+## Git Commands (Daily Use)
+
+### Status & Changes
+- `git status` — Check modified/untracked files
+- `git diff` — View unstaged changes
+- `git diff --staged` — View staged changes
+
+### Staging & Committing
+- `git add .` — Stage all changes
+- `git add <file>` — Stage specific file
+- `git commit -m "message"` — Commit with message
+
+### Push & Pull
+- `git push` — Push to remote
+- `git pull` — Pull latest changes
+- `git fetch` — Fetch remote changes (no merge)
+
+### Branches
+- `git branch` — List branches
+- `git checkout -b <name>` — Create and switch to new branch
+- `git checkout <name>` — Switch branch
+- `git branch -d <name>` — Delete branch
+
+### Undo / Fix
+- `git stash` — Stash changes temporarily
+- `git stash pop` — Restore stashed changes
+- `git log --oneline -10` — View last 10 commits
+- `git reset --soft HEAD~1` — Undo last commit (keep changes staged)
+- `git reset HEAD <file>` — Unstage a file
+
+> **Important:** Always `git add` and `git commit` before `git push`. Never push uncommitted changes.
