@@ -4,12 +4,16 @@ const projects = [
     description:
       "An AI-powered perfume shopping application where users can browse perfume products and receive AI-driven product recommendations.",
     technologies: ["React", "Vite", "JavaScript", "Spring Boot", "MySQL"],
+    // github: "#",
+    // demo: "#",
   },
   {
     title: "Hotel Management System",
     description:
       "A hotel management web application for managing bookings, guests, and room operations.",
     technologies: ["PHP", "MySQL"],
+    // github: "#",
+    // demo: null,
   },
   {
     title: "Spring Boot POS System",
@@ -22,12 +26,16 @@ const projects = [
       "PostgreSQL",
       "Swagger",
     ],
+    // github: "#",
+    // demo: null,
   },
   {
     title: "University Library System",
     description:
       "A university library management application for tracking books, members, and borrowing records.",
     technologies: ["Java", "Java Swing", "Database"],
+    github: "#",
+    demo: null,
   },
 ];
 

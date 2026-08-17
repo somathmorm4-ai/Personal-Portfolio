@@ -1,8 +1,8 @@
 const experiences = [
   {
     role: "Data Entry Officer",
-    company: "[Company Name]",
-    period: "[Start Date] &ndash; [End Date]",
+    company: "MoPoTsyo Information Centre",
+    period: "01 July 2025 &ndash; to Present",
     responsibilities: [
       "Data entry and data management",
       "Ensuring information accuracy and consistency",
@@ -11,9 +11,9 @@ const experiences = [
     ],
   },
   {
-    role: "Admin &amp; HR Intern",
-    company: "[Company Name]",
-    period: "[Start Date] &ndash; [End Date]",
+    role: "Admin & HR Intern",
+    company: "Apsara Media Service",
+    period: "01 June 2024 &ndash; 30 May 2025",
     responsibilities: [
       "Providing administrative support to teams",
       "Document management and filing",
@@ -25,7 +25,10 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-20 px-6 bg-bg-secondary scroll-mt-16">
+    <section
+      id="experience"
+      className="py-20 px-6 bg-bg-secondary scroll-mt-16"
+    >
       <div className="max-w-4xl mx-auto">
         <p className="text-accent text-sm font-medium tracking-wide uppercase mb-3">
           Experience
