@@ -9,6 +9,7 @@ const contactLinks = [
     label: "Email",
     value: email,
     href: `mailto:${email}`,
+    external: false,
     icon: (
       <svg
         className="w-5 h-5"
@@ -30,6 +31,7 @@ const contactLinks = [
     label: "GitHub",
     value: "https://github.com/somathmorm4-ai",
     href: "https://github.com/somathmorm4-ai",
+    external: true,
     icon: (
       <svg
         className="w-5 h-5"
@@ -45,6 +47,7 @@ const contactLinks = [
     label: "LinkedIn",
     value: "https://www.linkedin.com/in/somath-morm-262599323/",
     href: "https://www.linkedin.com/in/somath-morm-262599323/",
+    external: true,
     icon: (
       <svg
         className="w-5 h-5"
@@ -115,8 +118,9 @@ export default function Contact() {
                 <a
                   key={link.label}
                   href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...(link.external
+                    ? { target: "_blank", rel: "noopener noreferrer" }
+                    : {})}
                   className="flex items-center gap-3 text-text-muted hover:text-heading transition-colors group"
                 >
                   <span className="text-accent">{link.icon}</span>
@@ -137,7 +141,7 @@ export default function Contact() {
             className="bg-bg-card border border-border rounded-lg p-6 space-y-4"
           >
             {submitted && (
-              <p className="text-accent text-sm bg-accent-dim border border-accent/20 rounded-md px-4 py-3">
+              <p className="text-accent text-sm bg-accent-dim border border-accent/20 rounded-md px-4 py-3" role="status">
                 Thank you for your message! This is a demo form &mdash; no email
                 was sent.
               </p>
@@ -158,7 +162,7 @@ export default function Contact() {
                 placeholder="Your name"
               />
               {errors.name && (
-                <p className="text-red-400 text-xs mt-1">{errors.name}</p>
+                <p className="text-red-400 text-xs mt-1" aria-live="polite">{errors.name}</p>
               )}
             </div>
 
@@ -177,7 +181,7 @@ export default function Contact() {
                 placeholder="your@email.com"
               />
               {errors.email && (
-                <p className="text-red-400 text-xs mt-1">{errors.email}</p>
+                <p className="text-red-400 text-xs mt-1" aria-live="polite">{errors.email}</p>
               )}
             </div>
 
@@ -196,7 +200,7 @@ export default function Contact() {
                 placeholder="Your message..."
               />
               {errors.message && (
-                <p className="text-red-400 text-xs mt-1">{errors.message}</p>
+                <p className="text-red-400 text-xs mt-1" aria-live="polite">{errors.message}</p>
               )}
             </div>
 

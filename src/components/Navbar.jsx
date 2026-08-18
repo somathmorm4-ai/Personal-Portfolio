@@ -15,7 +15,6 @@ export default function Navbar() {
   return (
     <nav
       className="fixed top-0 left-0 right-0 z-50 bg-bg border-b border-border"
-      role="navigation"
       aria-label="Main navigation"
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
