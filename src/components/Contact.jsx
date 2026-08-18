@@ -1,10 +1,14 @@
 import { useState } from "react";
 
+const emailUser = "samathmorm123";
+const emailDomain = "gmail.com";
+const email = `${emailUser}@${emailDomain}`;
+
 const contactLinks = [
   {
     label: "Email",
-    value: "samathmorm123@gmail.com",
-    href: "mailto:samathmorm123@gmail.com",
+    value: email,
+    href: `mailto:${email}`,
     icon: (
       <svg
         className="w-5 h-5"

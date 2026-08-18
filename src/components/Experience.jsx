@@ -2,7 +2,7 @@ const experiences = [
   {
     role: "Data Entry Officer",
     company: "MoPoTsyo Information Centre",
-    period: "01 July 2025 &ndash; to Present",
+    period: "01 July 2025 \u2013 to Present",
     responsibilities: [
       "Data entry and data management",
       "Ensuring information accuracy and consistency",
@@ -13,7 +13,7 @@ const experiences = [
   {
     role: "Admin & HR Intern",
     company: "Apsara Media Service",
-    period: "01 June 2024 &ndash; 30 May 2025",
+    period: "01 June 2024 \u2013 30 May 2025",
     responsibilities: [
       "Providing administrative support to teams",
       "Document management and filing",
@@ -50,10 +50,9 @@ export default function Experience() {
                   </h3>
                   <p className="text-accent text-sm">{exp.company}</p>
                 </div>
-                <p
-                  className="text-text-muted text-sm mt-1 sm:mt-0 sm:text-right"
-                  dangerouslySetInnerHTML={{ __html: exp.period }}
-                />
+                <p className="text-text-muted text-sm mt-1 sm:mt-0 sm:text-right">
+                  {exp.period}
+                </p>
               </div>
 
               <ul className="space-y-2">

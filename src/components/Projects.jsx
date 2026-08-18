@@ -4,16 +4,16 @@ const projects = [
     description:
       "An AI-powered perfume shopping application where users can browse perfume products and receive AI-driven product recommendations.",
     technologies: ["React", "Vite", "JavaScript", "Spring Boot", "MySQL"],
-    // github: "#",
-    // demo: "#",
+    github: "#",
+    demo: "#",
   },
   {
     title: "Hotel Management System",
     description:
       "A hotel management web application for managing bookings, guests, and room operations.",
     technologies: ["PHP", "MySQL", "XAMPP"],
-    // github: "#",
-    // demo: null,
+    github: "#",
+    demo: null,
   },
   {
     title: "Spring Boot POS System",
@@ -26,8 +26,8 @@ const projects = [
       "PostgreSQL",
       "Swagger",
     ],
-    // github: "#",
-    // demo: null,
+    github: "#",
+    demo: null,
   },
   {
     title: "University Library System",
@@ -60,6 +60,31 @@ function ProjectCard({ project }) {
           </span>
         ))}
       </div>
+
+      {(project.github || project.demo) && (
+        <div className="flex items-center gap-3 mt-4 pt-4 border-t border-border">
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-text-muted hover:text-accent transition-colors"
+            >
+              GitHub
+            </a>
+          )}
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-text-muted hover:text-accent transition-colors"
+            >
+              Live Demo
+            </a>
+          )}
+        </div>
+      )}
     </article>
   );
 }
