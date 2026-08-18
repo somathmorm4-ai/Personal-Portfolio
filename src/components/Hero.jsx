@@ -47,7 +47,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/CV.pdf"
+            href={`${import.meta.env.BASE_URL}CV.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-border text-text-muted text-sm font-medium rounded-lg hover:bg-bg-card hover:text-heading transition-colors"
