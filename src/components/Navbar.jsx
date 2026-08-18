@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-50 bg-bg/80 backdrop-blur-md border-b border-border"
+      className="fixed top-0 left-0 right-0 z-50 bg-bg border-b border-border"
       role="navigation"
       aria-label="Main navigation"
     >

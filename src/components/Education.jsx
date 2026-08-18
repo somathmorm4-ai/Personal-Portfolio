@@ -9,7 +9,7 @@ const coursework = [
 
 export default function Education() {
   return (
-    <section id="education" className="py-20 px-6">
+    <section id="education" className="py-20 px-6 scroll-mt-16">
       <div className="max-w-4xl mx-auto">
         <p className="text-accent text-sm font-medium tracking-wide uppercase mb-3">
           Education

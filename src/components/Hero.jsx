@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center px-6"
+      className="min-h-screen pt-16 flex items-center justify-center px-6"
     >
       <div className="max-w-3xl text-center">
         <img
@@ -17,8 +17,7 @@ export default function Hero() {
         </p>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-heading leading-tight mb-6">
-          Hi, I&apos;m{" "}
-          <span className="text-accent">Somath</span>
+          Hi, I&apos;m <span className="text-accent">Somath</span>
         </h1>
 
         <h2 className="text-xl sm:text-2xl text-text-muted font-medium mb-6">
