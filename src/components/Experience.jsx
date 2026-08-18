@@ -13,7 +13,7 @@ const experiences = [
   {
     role: "Admin & HR Intern",
     company: "Apsara Media Service",
-    period: "01 June 2024 \u2013 30 May 2025",
+    period: "01 June 2024 \u2013 31 May 2025",
     responsibilities: [
       "Providing administrative support to teams",
       "Document management and filing",
