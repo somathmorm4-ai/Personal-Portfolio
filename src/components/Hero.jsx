@@ -46,14 +46,14 @@ export default function Hero() {
             Contact Me
           </a>
 
-          {/* Replace with a real link when CV file is added to public/ */}
-          <span
-            className="inline-flex items-center px-6 py-3 border border-border text-text-muted text-sm font-medium rounded-lg opacity-50 cursor-not-allowed"
-            title="Coming soon"
-            aria-disabled="true"
+          <a
+            href="/CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 border border-border text-text-muted text-sm font-medium rounded-lg hover:bg-bg-card hover:text-heading transition-colors"
           >
-            Download CV
-          </span>
+            View CV
+          </a>
         </div>
       </div>
     </section>

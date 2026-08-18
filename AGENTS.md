@@ -213,3 +213,13 @@ export default function ComponentName() {
 - Ensure accessibility standards are met
 - Run `npm run lint` after making changes
 - Check that all imports are correct and components are properly exported
+
+## Future Updates
+
+- [ ] Add GitHub and Live Demo links to Projects.jsx (uncomment fields and add conditional rendering in ProjectCard)
+- [ ] Update `og:url` in `index.html` with actual deployed URL
+- [ ] Add a real backend or form service to Contact.jsx form (currently demo only, no email sent)
+- [ ] Update CV file in `public/CV.pdf` when new version is available
+- [ ] Add more projects as they are completed
+- [ ] Update skills list in Skills.jsx as new technologies are learned
+- [ ] Add work experience entries to Experience.jsx as career progresses
