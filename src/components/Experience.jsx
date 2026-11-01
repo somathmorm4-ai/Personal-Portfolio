@@ -1,8 +1,23 @@
 const experiences = [
   {
     role: "Data Entry Officer",
+    company: "SpacialNet",
+    period: "01 October 2026 \u2013 to Present",
+    responsibilities: [
+      "Reviewing property documents, owner notes, company rules and past guest chats to find the correct information.",
+      "Entering the information into Excel template for each property.",
+      "Writing short and clear answers in easy English that a guest can understand without extra explanation.",
+      "Recording the source of each answer (file, folder or chat)",
+      "Labelling each answer: who can see it (guest or staff only), when to show it, and how important it is.",
+      "Asking the operations team or the property owner when information is missing, unclear or contradictory.",
+      "Checking completed work before submission: no empty rows, no wrong labels, and no conflict between rooms in the same building.",
+      "Removing guest names, booking numbers and other personal information from past chat records.",
+    ],
+  },
+  {
+    role: "Data Entry Officer",
     company: "MoPoTsyo Information Centre",
-    period: "01 July 2025 \u2013 to Present",
+    period: "01 July 2025 \u2013 to 31 August 2026",
     responsibilities: [
       "Data entry and data management",
       "Ensuring information accuracy and consistency",

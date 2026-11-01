@@ -25,10 +25,10 @@ export default function Hero() {
         </h2>
 
         <p className="text-text-muted leading-relaxed max-w-xl mx-auto mb-10">
-          A Year 3 Computer Science student passionate about building practical
-          software solutions. I enjoy working across the stack &mdash; from
-          designing backend APIs with Java and Spring Boot to crafting
-          responsive interfaces with React.
+          Currently I am a fourth-year Computer Science student passionate about
+          building practical software solutions. I enjoy working across the
+          stack &mdash; from designing backend APIs with Java and Spring Boot to
+          crafting responsive interfaces with React.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

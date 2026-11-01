@@ -2,7 +2,7 @@ const projects = [
   {
     title: "AI Perfume Shop Assistant",
     description:
-      "An AI-powered perfume shopping application where users can browse perfume products and receive AI-driven product recommendations.",
+      "[Group Project] An AI-powered perfume shopping application where users can browse perfume products and receive AI-driven product recommendations.",
     technologies: ["React", "Vite", "JavaScript", "Spring Boot", "MySQL"],
     // github: "#",
     // demo: "#",
@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Hotel Management System",
     description:
-      "A hotel management web application for managing bookings, guests, and room operations.",
+      "[School Project] A hotel management web application for managing bookings, guests, and room operations.",
     technologies: ["PHP", "MySQL", "XAMPP"],
     // github: "#",
     // demo: null,
@@ -18,16 +18,16 @@ const projects = [
   {
     title: "Spring Boot POS System",
     description:
-      "A backend POS system for managing categories, products, tables, cashiers, and orders.",
+      "[Individual Project] A backend POS system for managing categories, products, tables, cashiers, and orders.",
     technologies: [
       "Java",
       "Spring Boot",
       "JDBC / JPA",
       "PostgreSQL",
       "Swagger",
+      // github: "#",
+      // demo: null,
     ],
-    // github: "#",
-    // demo: null,
   },
   {
     title: "University Library System",

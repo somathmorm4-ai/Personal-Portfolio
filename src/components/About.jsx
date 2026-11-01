@@ -12,9 +12,10 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-10 items-start">
           <div className="space-y-4 text-text-muted leading-relaxed">
             <p>
-              I&apos;m a Year 3 Computer Science student at Norton University
-              with a strong interest in software development. I enjoy learning
-              how systems work and building projects that solve real problems.
+              I&apos;m currently a fourth-year Computer Science student at
+              Norton University with a strong interest in software development.
+              I enjoy learning how systems work and building projects that solve
+              real problems.
             </p>
             <p>
               My focus areas include backend development with Java and Spring
